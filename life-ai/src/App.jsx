@@ -1,11 +1,15 @@
-import Chatbot from './ai/Chatbot.jsx'
-import './App.css'
+import Chatbot from './components/Chatbot.jsx'
+import SideBar from './components/SideBar.jsx'
+
 
 function App() {
-
   return (
-      <div>
+      <div className='bg-gray-100 flex gap-1'>
+        <SideBar />
         <Chatbot />
+
+
+
       </div>
   );
 }
